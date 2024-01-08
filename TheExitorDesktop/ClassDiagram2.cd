@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheExitorDesktop.BetterSpriteBatch" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgAAgAAAAAAAAAAACBAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>Classes\General\BetterSpriteBatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.GameScreen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAIQEgAAEAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\General\GameScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TheExitorDesktop.GameScreenManager" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACCQAAIAAAAAAIAQ=</HashCode>
+      <FileName>Classes\General\GameScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Helper" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\General\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.InventoryItem" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAhAAAAAQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Classes\General\InventoryItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheExitorDesktop.Item" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\General\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.MazeGenerator" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAACAAAAAIAAABAAAAAAAFACAAEABQAg=</HashCode>
+      <FileName>Classes\Help\MazeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.UserInput" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEICAAAIAgAAAAAoAAAAAAAAAAAQAAABAAAAEAAA=</HashCode>
+      <FileName>Classes\Help\UserInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Wave" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAEACgAAACAIAAgAAAAIACAABhCAAAAhA=</HashCode>
+      <FileName>Classes\Help\Wave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.GameObject" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAgAAgAAAAAAAAAAIAIAIAAIAAAAAAAA=</HashCode>
+      <FileName>Classes\Objects\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheExitorDesktop.HitableObject" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Objects\HitableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.LightableGameObject" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAhAAAA=</HashCode>
+      <FileName>Classes\Objects\LightableGameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheExitorDesktop.MovableGameObject" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Objects\MovableGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.ExtensionMethod" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Other\ExtensionMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Button" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAAEAAAAAgkgACAAAAAAAAAAABAACIAQAAAAAAAgA=</HashCode>
+      <FileName>Classes\UserComponent\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Inventory" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAAAhAAACAAEAAAAACIAAAA=</HashCode>
+      <FileName>Classes\UserComponent\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.PopUpHint" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\UserComponent\PopUpHint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.UserComponent" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\UserComponent\UserComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Map" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAEAGQEAEEAABEAAAAAAoABAAAAAgSNQAACgAAQgRQ=</HashCode>
+      <FileName>Classes\World\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.MapLayer" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAABAAAAAAIAAKAQAAAAAAAAAA=</HashCode>
+      <FileName>Classes\World\MapLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.MapTile" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\World\MapTile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheExitorDesktop.Player" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQAgAAAIAAgAgAAQACAIAAFAAAAAACIAAAAAAABgQA=</HashCode>
+      <FileName>Classes\World\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.WorldCamera" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAEAAAACAIAgEgAAIAQAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\World\WorldCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.GameWorld" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAAABwAAAACIAAAAAAAAAAAJAAAAAAAAAAQ=</HashCode>
+      <FileName>Components\GameWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Menu" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAwAAIAAAAAAAAAAAAAAIAAAAAAAAIAQ=</HashCode>
+      <FileName>Components\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Game1" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCEEQAhABBAwBAAAAAAQAABAAAQAgAEAAAAAAEABQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheExitorDesktop.Program" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TheExitorDesktop.ILightableObject" Collapsed="true">
+    <Position X="18.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAA=</HashCode>
+      <FileName>Classes\Other\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TheExitorDesktop.PopUpStatus" Collapsed="true">
+    <Position X="22.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Other\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheExitorDesktop.PopUpButtons" Collapsed="true">
+    <Position X="20.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAE=</HashCode>
+      <FileName>Classes\Other\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheExitorDesktop.TileVisibility" Collapsed="true">
+    <Position X="24" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAIAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Other\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheExitorDesktop.LayerSorting" Collapsed="true">
+    <Position X="18.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Classes\Other\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

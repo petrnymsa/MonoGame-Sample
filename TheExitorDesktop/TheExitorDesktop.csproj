@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C1846FF-DD16-43BB-AC7B-37BDBB2E77A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheExitorDesktop</RootNamespace>
+    <AssemblyName>TheExitorDesktop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\WindowsGL\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\WindowsGL\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Classes\General\BetterSpriteBatch.cs" />
+    <Compile Include="Classes\General\InventoryItem.cs" />
+    <Compile Include="Classes\General\Item.cs" />
+    <Compile Include="Classes\General\GameScreenManager.cs" />
+    <Compile Include="Classes\Objects\LightableGameObject.cs" />
+    <Compile Include="Classes\Other\ExtensionMethod.cs" />
+    <Compile Include="Classes\UserComponent\PopUpHint.cs" />
+    <Compile Include="Classes\World\MapLayer.cs" />
+    <Compile Include="Classes\Other\Interfaces.cs" />
+    <Compile Include="Classes\Help\Wave.cs" />
+    <Compile Include="Classes\World\Map.cs" />
+    <Compile Include="Classes\Help\MazeGenerator.cs" />
+    <Compile Include="Classes\Objects\GameObject.cs" />
+    <Compile Include="Classes\Other\Enums.cs" />
+    <Compile Include="Classes\Other\Events.cs" />
+    <Compile Include="Classes\General\Helper.cs" />
+    <Compile Include="Classes\Objects\MovableGameObject.cs" />
+    <Compile Include="Classes\UserComponent\Inventory.cs" />
+    <Compile Include="Classes\World\MapTile.cs" />
+    <Compile Include="Classes\World\WorldCamera.cs" />
+    <Compile Include="Classes\World\Player.cs" />
+    <Compile Include="Classes\UserComponent\Button.cs" />
+    <Compile Include="Classes\General\GameScreen.cs" />
+    <Compile Include="Classes\Objects\HitableObject.cs" />
+    <Compile Include="Classes\UserComponent\UserComponent.cs" />
+    <Compile Include="Classes\Help\UserInput.cs" />
+    <Compile Include="Components\GameWorld.cs" />
+    <Compile Include="Components\Menu.cs" />
+    <Compile Include="Components\PopUpMenu.cs" />
+    <Compile Include="Components\PopUpMessage.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Lidgren.Network">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\testroom.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Font\Halo.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Background\menu.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Background\popUp.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Font\Stencil25.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Font\Stencil50.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Font\Stencil35.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\player.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Objects\bullet.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Background\background.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Objects\stoneDarkFloor.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Objects\stoneWall.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\cursor.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Items\blueDiamond.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Items\redDiamond.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\tile1.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\tile2.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Font\Stencil10.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
